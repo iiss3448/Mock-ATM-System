@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestATM" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-09-24T09:27:34" hostname="DESKTOP-CBH797C" time="0.107">
+  <properties/>
+  <testcase name="testPinController()" classname="TestATM" time="0.027"/>
+  <testcase name="testDepositController()" classname="TestATM" time="0.016"/>
+  <testcase name="testCheckValid()" classname="TestATM" time="0.006"/>
+  <testcase name="testMain()" classname="TestATM" time="0.017"/>
+  <testcase name="testAdminPinController()" classname="TestATM" time="0.006"/>
+  <testcase name="testAdminAdd()" classname="TestATM" time="0.004"/>
+  <testcase name="testWithdraw()" classname="TestATM" time="0.005"/>
+  <testcase name="testWithdrawController()" classname="TestATM" time="0.006"/>
+  <testcase name="testDeposit()" classname="TestATM" time="0.004"/>
+  <testcase name="testWithdrawControllerMore()" classname="TestATM" time="0.005"/>
+  <testcase name="testConstructor()" classname="TestATM" time="0.005"/>
+  <system-out><![CDATA[
+Enter your card pin: Success!
+
+Enter your card pin: Invalid PIN, 2 attempts remaining before the card is blocked.
+
+Enter your card pin: Invalid PIN, 1 attempts remaining before the card is blocked.
+
+Enter your card pin: Invalid PIN, 0 attempts remaining before the card is blocked.
+Sorry, this card has been blocked.
+
+Enter your card pin: Invalid PIN, 2 attempts remaining before the card is blocked.
+
+Enter your card pin: Invalid PIN, 1 attempts remaining before the card is blocked.
+
+Enter your card pin: Success!
+
+Would you like to
+1. Deposit funds
+2. Cancel
+Please enter the number corresponding to the action: 
+How much would you like to deposit: Can only deposit Australian notes.
+
+Would you like to
+1. Deposit funds
+2. Cancel
+Please enter the number corresponding to the action: 
+How much would you like to deposit: Invalid deposit amount.
+
+Would you like to
+1. Deposit funds
+2. Cancel
+Please enter the number corresponding to the action: 
+How much would you like to deposit:  --------------- 
+Receipt No: 1
+Transaction type : Deposit
+Amount deposited: 5
+Current Balance: 10
+ --------------- 
+Card is now being ejected.
+Not a valid card number.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

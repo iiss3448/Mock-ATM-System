@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestAdmin" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-24T09:27:34" hostname="DESKTOP-CBH797C" time="0.039">
+  <properties/>
+  <testcase name="testAdminCreation()" classname="TestAdmin" time="0.029"/>
+  <testcase name="testAdminAddFunds()" classname="TestAdmin" time="0.009"/>
+  <system-out><![CDATA[ --------------- 
+The new ATM balance is 20
+ --------------- 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
